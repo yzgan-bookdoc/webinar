@@ -1,0 +1,9 @@
+@import 'material-dashboard/assets/scss/material-dashboard';
+@import '@fortawesome/fontawesome-free';
+@import './bootstrap_custom.scss';
+@import './material_kit_custom.scss';
+@import './md_date_time_picker.scss';
+@import './typography.scss';
+.text-warning {
+    color: #ff9800 !important;
+}
