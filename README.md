@@ -1,4 +1,4 @@
-# Rails 6 Material Boilerplate
+# BookDoc Webinar
 
 ## Gems and plugins
 1. Rubocop

@@ -12,4 +12,6 @@ Rails.application.routes.draw do
   get :table_list, to: 'home#table_list'
   get :notification, to: 'home#notification'
   get :user_login, to: 'home#user_login'
+
+  get :youtube, to: 'home#youtube'
 end

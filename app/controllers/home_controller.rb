@@ -15,4 +15,10 @@ class HomeController < ApplicationController
   def typography; end
 
   def user_login; end
+
+  def youtube
+    video_id = 'Pi4BtPi8bk8'
+    @youtube_link = "https://www.youtube.com/embed/#{video_id}"
+    @youtube_chat = "https://www.youtube.com/live_chat?v=#{video_id}&embed_domain=localhost"
+  end
 end

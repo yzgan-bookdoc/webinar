@@ -7,4 +7,4 @@ test:
 production:
   adapter: redis
   url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
-  channel_prefix: rails_6_material_boilerplate_production
+  channel_prefix: bookdoc_webinar_production
